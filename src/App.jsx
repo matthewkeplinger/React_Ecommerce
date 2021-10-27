@@ -78,7 +78,7 @@ const App = () => {
         <Navbar totalItems={cart.total_items} handleDrawerToggle={handleDrawerToggle} />
         <Switch>
           <Route exact path="/">
-            <Products products={products} handleAddToCart={handleAddToCart} handleUpdateCartQty={handleUpdateCartQty} />
+            <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty={handleUpdateCartQty} />
           </Route>
           <Route exact path="/cart">
             <Cart cart={cart} handleUpdateCartQty={handleUpdateCartQty} handleRemoveFromCart={handleRemoveFromCart} handleEmptyCart={handleEmptyCart} />
