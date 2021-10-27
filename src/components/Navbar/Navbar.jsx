@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Toolbar>
                     <Typography variant= 'h6' className={classes.title} color='inherit'>
                         <img src = {logo} alt='Commerce.js' height = '25px' className = {classes.image}/>
-                        Matt's Ecommerce
+                        DesignedIT
                     </Typography>
                     <div className = {classes.grow} />
                     <div classname = {classes.button}>
