@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   root: {
-    maxWidth: '90%',
+    maxWidth: '80%',
   },
   media: {
     height: 0,
